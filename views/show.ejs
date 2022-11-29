@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./partials/head.ejs') %>
+    <body>
+        <%- include('./partials/header.ejs') %>
+        <main>
+            <div>
+                <h2><%=animal.species%> </h2>
+                <h2><%=animal.extinct %> </h2>
+                <h2><%=animal.location %> </h2>
+                <h2><%=animal.lifeExpectancy %></h2>
+                <button type="button"><a href="/<%=animal%>/edit">Edit</a></button>
+                <button> <a href="/animals/">Back to Animals</a></button>
+                <form action="/animals/<%=animal %>?_method=DELETE" method="POST">
+                    <input type="submit" value="Delete" />
+                </form>
+            </div>
+        </main>
+    </body>
+</html>

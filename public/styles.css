@@ -1,0 +1,13 @@
+*{
+    background-image: url('https://png.pngtree.com/background/20210714/original/pngtree-cartoon-fox-lion-giraffe-owl-animal-background-picture-image_1236670.jpg');
+    background-attachment: fixed;
+   background-size: cover;
+   color: purple;
+   font-family: 'Times New Roman', Times, serif;
+
+}
+
+main{
+    text-align:center;
+    font-size: 40px;
+}
